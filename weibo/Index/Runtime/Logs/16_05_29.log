@@ -1,0 +1,69 @@
+[ 2016-05-29T17:29:28+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2016-05-29T17:29:28+08:00 ] /weibo/index.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+[ 2016-05-29T17:29:28+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.003000s ]
+[ 2016-05-29T17:29:28+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2016-05-29T17:29:28+08:00 ] /weibo/index.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-05-29T17:29:28+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:28+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2016-05-29T17:29:28+08:00 ] /weibo/index.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.015001s ]
+[ 2016-05-29T17:29:28+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.016001s ]
+[ 2016-05-29T17:29:28+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2016-05-29T17:29:29+08:00 ] /weibo/index.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.135007s ]
+[ 2016-05-29T17:29:29+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.135007s ]
+[ 2016-05-29T17:29:29+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2016-05-29T17:29:29+08:00 ] /weibo/index.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.001001s ]
+[ 2016-05-29T17:29:29+08:00 ] /weibo/index.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:29+08:00 ] /weibo/index.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:29+08:00 ] /weibo/index.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.002000s ]
+[ 2016-05-29T17:29:29+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005001s ]
+[ 2016-05-29T17:29:29+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2016-05-29T17:29:29+08:00 ] /weibo/index.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.002000s ]
+[ 2016-05-29T17:29:29+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.002000s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.008001s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008001s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003000s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-05-29T17:29:37+08:00 ] /weibo/index.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Tag[ route_check ] --START--
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Tag[ app_begin ] --START--
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Tag[ view_template ] --START--
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Tag[ view_parse ] --START--
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Run ParseTemplate Behavior [ RunTime:0.050003s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Tag[ view_parse ] --END-- [ RunTime:0.050003s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Tag[ view_filter ] --START--
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Tag[ view_end ] --START--
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/register | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-05-29T17:29:39+08:00 ] /weibo/index.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]

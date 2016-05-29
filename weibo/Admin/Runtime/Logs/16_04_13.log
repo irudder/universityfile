@@ -1,0 +1,1176 @@
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.047003s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.047003s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2016-04-13T20:07:19+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.003000s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.019001s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.020001s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:35+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:36+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:07:36+08:00 ] /weibo/admin.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.003000s ]
+[ 2016-04-13T20:07:36+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.003000s ]
+[ 2016-04-13T20:07:36+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:07:36+08:00 ] /weibo/admin.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:36+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001001s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:07:41+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Run ParseTemplate Behavior [ RunTime:0.010001s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010001s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004000s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:08:37+08:00 ] /weibo/admin.php/Login/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:08:38+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:08:38+08:00 ] /weibo/admin.php/Login/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:38+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:38+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:08:38+08:00 ] /weibo/admin.php/Login/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:38+08:00 ] /weibo/admin.php/Login/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:53+08:00 ] /weibo/admin.php/Login/verify/0.5375369428656995 | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:08:53+08:00 ] /weibo/admin.php/Login/verify/0.5375369428656995 | INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:08:53+08:00 ] /weibo/admin.php/Login/verify/0.5375369428656995 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:53+08:00 ] /weibo/admin.php/Login/verify/0.5375369428656995 | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:08:53+08:00 ] /weibo/admin.php/Login/verify/0.5375369428656995 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:08:53+08:00 ] /weibo/admin.php/Login/verify/0.5375369428656995 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:08:54+08:00 ] /weibo/admin.php/Login/verify/0.7892992526758462 | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:08:54+08:00 ] /weibo/admin.php/Login/verify/0.7892992526758462 | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:54+08:00 ] /weibo/admin.php/Login/verify/0.7892992526758462 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:08:54+08:00 ] /weibo/admin.php/Login/verify/0.7892992526758462 | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:08:54+08:00 ] /weibo/admin.php/Login/verify/0.7892992526758462 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:08:54+08:00 ] /weibo/admin.php/Login/verify/0.7892992526758462 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:09:15+08:00 ] /weibo/admin.php/Login/verify/0.5539449057541788 | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:09:15+08:00 ] /weibo/admin.php/Login/verify/0.5539449057541788 | INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:09:15+08:00 ] /weibo/admin.php/Login/verify/0.5539449057541788 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:09:15+08:00 ] /weibo/admin.php/Login/verify/0.5539449057541788 | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:09:15+08:00 ] /weibo/admin.php/Login/verify/0.5539449057541788 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:09:15+08:00 ] /weibo/admin.php/Login/verify/0.5539449057541788 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:09:25+08:00 ] /weibo/admin.php/Login/verify/0.10490545048378408 | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:09:25+08:00 ] /weibo/admin.php/Login/verify/0.10490545048378408 | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:09:25+08:00 ] /weibo/admin.php/Login/verify/0.10490545048378408 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:09:25+08:00 ] /weibo/admin.php/Login/verify/0.10490545048378408 | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:09:25+08:00 ] /weibo/admin.php/Login/verify/0.10490545048378408 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:09:25+08:00 ] /weibo/admin.php/Login/verify/0.10490545048378408 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:01+08:00 ] /weibo/admin.php/Login/verify/0.41165359877049923 | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:10:01+08:00 ] /weibo/admin.php/Login/verify/0.41165359877049923 | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:01+08:00 ] /weibo/admin.php/Login/verify/0.41165359877049923 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:01+08:00 ] /weibo/admin.php/Login/verify/0.41165359877049923 | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:10:01+08:00 ] /weibo/admin.php/Login/verify/0.41165359877049923 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:01+08:00 ] /weibo/admin.php/Login/verify/0.41165359877049923 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:05+08:00 ] /weibo/admin.php/Login/login | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:10:05+08:00 ] /weibo/admin.php/Login/login | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:05+08:00 ] /weibo/admin.php/Login/login | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:05+08:00 ] /weibo/admin.php/Login/login | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:10:05+08:00 ] /weibo/admin.php/Login/login | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:05+08:00 ] /weibo/admin.php/Login/login | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | NOTIC: [8] Undefined offset: 1 Action.class.php 第 233 行.
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | SQL: SHOW COLUMNS FROM `hd_admin` [ RunTime:0.007000s ]
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | SQL: SELECT * FROM `hd_admin` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | NOTIC: [8] Use of undefined constant user - assumed 'user' LoginAction.class.php 第 36 行.
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | NOTIC: [8] Undefined index: lock LoginAction.class.php 第 40 行.
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | SQL: UPDATE `hd_admin` SET `logintime`=1460549406,`loginip`='127.0.0.1' WHERE ( `id` = '1' ) [ RunTime:0.152008s ]
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Tag[ view_template ] --END-- [ RunTime:0.003000s ]
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Run ParseTemplate Behavior [ RunTime:0.017001s ]
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017001s ]
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002001s ]
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:06+08:00 ] /weibo/admin.php/Login/login | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.010001s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011001s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.009001s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` WHERE ( `lock` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.009000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_weibo` WHERE ( `isturn` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_weibo` WHERE ( `isturn` > 0 ) LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | SQL: SHOW COLUMNS FROM `hd_comment` [ RunTime:0.007001s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_comment` LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:10:07+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_end ] --END-- [ RunTime:0.001001s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.006000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.006001s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | SQL: SELECT user.id AS id,user.`lock` AS `lock`,user.registime AS registime,userinfo.username AS username,userinfo.face50 AS face,userinfo.follow AS follow,userinfo.fans AS fans,userinfo.weibo AS weibo FROM hd_user user LEFT JOIN hd_userinfo userinfo ON user.id = userinfo.uid LIMIT 0,20   [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Run ParseTemplate Behavior [ RunTime:0.011000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:10:15+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001001s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Run ParseTemplate Behavior [ RunTime:0.010001s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010001s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002001s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.011001s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` WHERE ( `lock` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.012001s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_weibo` WHERE ( `isturn` = 0 ) LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_weibo` WHERE ( `isturn` > 0 ) LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | SQL: SHOW COLUMNS FROM `hd_comment` [ RunTime:0.008000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_comment` LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ParseTemplate Behavior [ RunTime:0.012001s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_parse ] --END-- [ RunTime:0.012001s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:55+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.007000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.008001s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | SQL: SELECT user.id AS id,user.`lock` AS `lock`,user.registime AS registime,userinfo.username AS username,userinfo.face50 AS face,userinfo.follow AS follow,userinfo.fans AS fans,userinfo.weibo AS weibo FROM hd_user user LEFT JOIN hd_userinfo userinfo ON user.id = userinfo.uid LIMIT 0,20   [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Run ParseTemplate Behavior [ RunTime:0.009001s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009001s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:10:57+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.007001s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | SQL: UPDATE `hd_user` SET `lock`=1 WHERE ( `id` = 1 ) [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Run ParseTemplate Behavior [ RunTime:0.009000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:01+08:00 ] /weibo/admin.php/User/lockUser/id/1/lock/1 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.007001s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.008000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | SQL: SELECT user.id AS id,user.`lock` AS `lock`,user.registime AS registime,userinfo.username AS username,userinfo.face50 AS face,userinfo.follow AS follow,userinfo.fans AS fans,userinfo.weibo AS weibo FROM hd_user user LEFT JOIN hd_userinfo userinfo ON user.id = userinfo.uid LIMIT 0,20   [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Run ParseTemplate Behavior [ RunTime:0.010001s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010001s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:02+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Tag[ route_check ] --END-- [ RunTime:0.002001s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | NOTIC: [8] Undefined variable: user 959ab1844c07a1eb0c0ba81766ff4cab.php 第 39 行.
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Run ParseTemplate Behavior [ RunTime:0.063003s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Tag[ view_parse ] --END-- [ RunTime:0.063003s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Run ContentReplace Behavior [ RunTime:0.002001s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Run TokenBuild Behavior [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Run WriteHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Tag[ view_filter ] --END-- [ RunTime:0.008001s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:04+08:00 ] /weibo/admin.php/User/sechUser | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | SQL: SHOW COLUMNS FROM `hd_admin` [ RunTime:0.007000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | SQL: SELECT * FROM `hd_admin`  [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | NOTIC: [8] Undefined index: lock f619f60968ad8939554a59d688d05618.php 第 35 行.
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Run ParseTemplate Behavior [ RunTime:0.010001s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010001s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:05+08:00 ] /weibo/admin.php/User/admin | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Run ParseTemplate Behavior [ RunTime:0.009001s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009001s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:07+08:00 ] /weibo/admin.php/User/addAdmin | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ route_check ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SHOW COLUMNS FROM `hd_comment` [ RunTime:0.006001s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SELECT COUNT(*) AS tp_count FROM `hd_comment` LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.007000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,userinfo.username AS username FROM hd_comment comment LEFT JOIN hd_userinfo userinfo ON comment.uid = userinfo.uid ORDER BY comment.time DESC LIMIT 0,20   [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ParseTemplate Behavior [ RunTime:0.009001s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009001s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:09+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Tag[ route_check ] --END-- [ RunTime:0.002001s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | SQL: SHOW COLUMNS FROM `hd_comment` [ RunTime:0.008001s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | SQL: DELETE FROM `hd_comment` WHERE ( `id` = 10 ) [ RunTime:0.259014s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.012001s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | SQL: UPDATE `hd_weibo` SET `comment`=comment-1 WHERE ( `id` = 24 ) [ RunTime:0.301017s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Run LocationTemplate Behavior [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Tag[ view_template ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Run ParseTemplate Behavior [ RunTime:0.019001s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.019001s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Run ContentReplace Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.005001s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:16+08:00 ] /weibo/admin.php/Weibo/delComment/id/10/wid/24 | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SHOW COLUMNS FROM `hd_comment` [ RunTime:0.006000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SELECT COUNT(*) AS tp_count FROM `hd_comment` LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.007001s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,userinfo.username AS username FROM hd_comment comment LEFT JOIN hd_userinfo userinfo ON comment.uid = userinfo.uid ORDER BY comment.time DESC LIMIT 0,20   [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ShowRuntime Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002001s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:17+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | SQL: SHOW COLUMNS FROM `hd_comment` [ RunTime:0.007000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | SQL: DELETE FROM `hd_comment` WHERE ( `id` = 9 ) [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.007000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | SQL: UPDATE `hd_weibo` SET `comment`=comment-1 WHERE ( `id` = 23 ) [ RunTime:0.001001s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Run ParseTemplate Behavior [ RunTime:0.007000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:21+08:00 ] /weibo/admin.php/Weibo/delComment/id/9/wid/23 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SHOW COLUMNS FROM `hd_comment` [ RunTime:0.006000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SELECT COUNT(*) AS tp_count FROM `hd_comment` LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.009001s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,userinfo.username AS username FROM hd_comment comment LEFT JOIN hd_userinfo userinfo ON comment.uid = userinfo.uid ORDER BY comment.time DESC LIMIT 0,20   [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ParseTemplate Behavior [ RunTime:0.008000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:22+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:24+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:24+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:24+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:24+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:24+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:11:24+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001001s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | SQL: SHOW COLUMNS FROM `hd_comment` [ RunTime:0.007000s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | SQL: SELECT COUNT(*) AS tp_count FROM `hd_comment` LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.007000s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,userinfo.username AS username FROM hd_comment comment LEFT JOIN hd_userinfo userinfo ON comment.uid = userinfo.uid ORDER BY comment.time DESC LIMIT 20,20   [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Run ParseTemplate Behavior [ RunTime:0.009001s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009001s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:25+08:00 ] /weibo/admin.php/Weibo/comment?&p=2 | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001001s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | NOTIC: [8] Undefined variable: comment 3ed335edb10d685b0ada92345d2e9f86.php 第 33 行.
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Run ParseTemplate Behavior [ RunTime:0.009000s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009000s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:27+08:00 ] /weibo/admin.php/Weibo/sechComment | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Run ParseTemplate Behavior [ RunTime:0.007001s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007001s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:28+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:31+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:31+08:00 ] /weibo/admin.php/System/index | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:31+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:31+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:31+08:00 ] /weibo/admin.php/System/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:31+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Run LocationTemplate Behavior [ RunTime:0.002001s ]
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.002001s ]
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Run ParseTemplate Behavior [ RunTime:0.016000s ]
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.017000s ]
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Run TokenBuild Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003001s ]
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:32+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ route_check ] --END-- [ RunTime:0.001001s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ParseTemplate Behavior [ RunTime:0.006000s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_parse ] --END-- [ RunTime:0.006000s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:33+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Run ParseTemplate Behavior [ RunTime:0.010000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:34+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ParseTemplate Behavior [ RunTime:0.010001s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010001s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003000s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:36+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Run ParseTemplate Behavior [ RunTime:0.011001s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011001s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:37+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.006000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.007000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | SQL: SELECT user.id AS id,user.`lock` AS `lock`,user.registime AS registime,userinfo.username AS username,userinfo.face50 AS face,userinfo.follow AS follow,userinfo.fans AS fans,userinfo.weibo AS weibo FROM hd_user user LEFT JOIN hd_userinfo userinfo ON user.id = userinfo.uid LIMIT 0,20   [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001001s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Run ParseTemplate Behavior [ RunTime:0.009000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:41+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.006000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | SQL: SELECT COUNT(*) AS tp_count FROM `hd_weibo` WHERE ( `isturn` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.006001s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.007000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.turn AS turn,weibo.keep AS keep,weibo.comment AS comment,picture.max AS pic,userinfo.uid AS uid,userinfo.username AS username FROM hd_weibo weibo LEFT JOIN hd_picture picture ON weibo.id = picture.wid LEFT JOIN hd_userinfo userinfo ON weibo.uid = userinfo.uid WHERE ( weibo.isturn = 0 ) ORDER BY weibo.time DESC LIMIT 0,20   [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.034002s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.034002s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:11:43+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.007000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | SQL: SELECT COUNT(*) AS tp_count FROM `hd_weibo` WHERE ( `isturn` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.006001s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.007000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.turn AS turn,weibo.keep AS keep,weibo.comment AS comment,picture.max AS pic,userinfo.uid AS uid,userinfo.username AS username FROM hd_weibo weibo LEFT JOIN hd_picture picture ON weibo.id = picture.wid LEFT JOIN hd_userinfo userinfo ON weibo.uid = userinfo.uid WHERE ( weibo.isturn = 0 ) ORDER BY weibo.time DESC LIMIT 0,20   [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.021001s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.021001s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003001s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:28+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Tag[ route_check ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.008001s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | SQL: SELECT COUNT(*) AS tp_count FROM `hd_weibo` WHERE ( `isturn` > 0 ) LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.007000s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.turn AS turn,weibo.keep AS keep,weibo.comment AS comment,userinfo.uid AS uid,userinfo.username AS username FROM hd_weibo weibo LEFT JOIN hd_userinfo userinfo ON weibo.uid = userinfo.uid WHERE ( weibo.isturn > 0 ) ORDER BY weibo.time DESC LIMIT 0,20   [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Run LocationTemplate Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Tag[ view_template ] --END-- [ RunTime:0.001001s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Run ParseTemplate Behavior [ RunTime:0.074004s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Tag[ view_parse ] --END-- [ RunTime:0.074004s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004000s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:31+08:00 ] /weibo/admin.php/Weibo/turn | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.009000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | SQL: SELECT COUNT(*) AS tp_count FROM `hd_weibo` WHERE ( `isturn` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.006001s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.006000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.turn AS turn,weibo.keep AS keep,weibo.comment AS comment,picture.max AS pic,userinfo.uid AS uid,userinfo.username AS username FROM hd_weibo weibo LEFT JOIN hd_picture picture ON weibo.id = picture.wid LEFT JOIN hd_userinfo userinfo ON weibo.uid = userinfo.uid WHERE ( weibo.isturn = 0 ) ORDER BY weibo.time DESC LIMIT 0,20   [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.009001s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009001s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:33+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | NOTIC: [8] Undefined variable: weibo a4568ccd42795cd151e1044e7e9ab285.php 第 35 行.
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Run ParseTemplate Behavior [ RunTime:0.013001s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013001s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/sechWeibo | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SHOW COLUMNS FROM `hd_comment` [ RunTime:0.007000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SELECT COUNT(*) AS tp_count FROM `hd_comment` LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.007000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | SQL: SELECT comment.id AS id,comment.content AS content,comment.time AS time,comment.wid AS wid,userinfo.username AS username FROM hd_comment comment LEFT JOIN hd_userinfo userinfo ON comment.uid = userinfo.uid ORDER BY comment.time DESC LIMIT 0,20   [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ParseTemplate Behavior [ RunTime:0.009000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:35+08:00 ] /weibo/admin.php/Weibo/comment | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Run ParseTemplate Behavior [ RunTime:0.008001s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008001s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:37+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Run ParseTemplate Behavior [ RunTime:0.010001s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010001s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:38+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001001s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Run ParseTemplate Behavior [ RunTime:0.008000s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008000s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:39+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.009001s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | SQL: SELECT COUNT(*) AS tp_count FROM `hd_weibo` WHERE ( `isturn` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.007000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.008001s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.turn AS turn,weibo.keep AS keep,weibo.comment AS comment,picture.max AS pic,userinfo.uid AS uid,userinfo.username AS username FROM hd_weibo weibo LEFT JOIN hd_picture picture ON weibo.id = picture.wid LEFT JOIN hd_userinfo userinfo ON weibo.uid = userinfo.uid WHERE ( weibo.isturn = 0 ) ORDER BY weibo.time DESC LIMIT 0,20   [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.012001s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.012001s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:42+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001001s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.006001s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | SQL: SELECT COUNT(*) AS tp_count FROM `hd_weibo` WHERE ( `isturn` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.006000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.007001s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.turn AS turn,weibo.keep AS keep,weibo.comment AS comment,picture.max AS pic,userinfo.uid AS uid,userinfo.username AS username FROM hd_weibo weibo LEFT JOIN hd_picture picture ON weibo.id = picture.wid LEFT JOIN hd_userinfo userinfo ON weibo.uid = userinfo.uid WHERE ( weibo.isturn = 0 ) ORDER BY weibo.time DESC LIMIT 0,20   [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.009000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:44+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002001s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Run ParseTemplate Behavior [ RunTime:0.007000s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007000s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Run TokenBuild Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:45+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ route_check ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ParseTemplate Behavior [ RunTime:0.007001s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007001s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:47+08:00 ] /weibo/admin.php/User/editPwd | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Run ParseTemplate Behavior [ RunTime:0.008001s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009001s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:49+08:00 ] /weibo/admin.php/System/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Run ParseTemplate Behavior [ RunTime:0.011001s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_parse ] --END-- [ RunTime:0.011001s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Run ContentReplace Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:50+08:00 ] /weibo/admin.php/System/filter | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.008001s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | SQL: SELECT COUNT(*) AS tp_count FROM `hd_weibo` WHERE ( `isturn` = 0 ) LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_picture` [ RunTime:0.006000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.006000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | SQL: SELECT weibo.id AS id,weibo.content AS content,weibo.isturn AS isturn,weibo.time AS time,weibo.turn AS turn,weibo.keep AS keep,weibo.comment AS comment,picture.max AS pic,userinfo.uid AS uid,userinfo.username AS username FROM hd_weibo weibo LEFT JOIN hd_picture picture ON weibo.id = picture.wid LEFT JOIN hd_userinfo userinfo ON weibo.uid = userinfo.uid WHERE ( weibo.isturn = 0 ) ORDER BY weibo.time DESC LIMIT 0,20   [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run LocationTemplate Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ParseTemplate Behavior [ RunTime:0.009000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ContentReplace Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ShowRuntime Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.003001s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:51+08:00 ] /weibo/admin.php/Weibo/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Run CheckRoute Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ route_check ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.006001s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | SQL: SHOW COLUMNS FROM `hd_userinfo` [ RunTime:0.007000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | SQL: SELECT user.id AS id,user.`lock` AS `lock`,user.registime AS registime,userinfo.username AS username,userinfo.face50 AS face,userinfo.follow AS follow,userinfo.fans AS fans,userinfo.weibo AS weibo FROM hd_user user LEFT JOIN hd_userinfo userinfo ON user.id = userinfo.uid LIMIT 0,20   [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Run ParseTemplate Behavior [ RunTime:0.010001s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_parse ] --END-- [ RunTime:0.010001s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/User/index | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ route_check ] --START--
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ route_check ] --END-- [ RunTime:0.001001s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ app_begin ] --START--
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | SQL: SHOW COLUMNS FROM `hd_user` [ RunTime:0.007000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` LIMIT 1   [ RunTime:0.001001s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_user` WHERE ( `lock` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | SQL: SHOW COLUMNS FROM `hd_weibo` [ RunTime:0.006000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_weibo` WHERE ( `isturn` = 0 ) LIMIT 1   [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_weibo` WHERE ( `isturn` > 0 ) LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | SQL: SHOW COLUMNS FROM `hd_comment` [ RunTime:0.005000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | SQL: SELECT COUNT(*) AS tp_count FROM `hd_comment` LIMIT 1   [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_template ] --START--
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Run LocationTemplate Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_template ] --END-- [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_parse ] --START--
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ParseTemplate Behavior [ RunTime:0.007001s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007001s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_filter ] --START--
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ContentReplace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Run TokenBuild Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ShowRuntime Behavior [ RunTime:0.000000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_end ] --START--
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Run ShowPageTrace Behavior [ RunTime:0.001000s ]
+[ 2016-04-13T20:12:52+08:00 ] /weibo/admin.php/Index/copy | INFO: Tag[ view_end ] --END-- [ RunTime:0.001000s ]
