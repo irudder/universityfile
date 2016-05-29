@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>易卖网-注册页面</title>
+		<link rel="stylesheet" type="text/css" href="/divcss/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="/divcss/js/My97DatePicker/skin/WdatePicker.css"/>
+		<script src="/divcss/js/My97DatePicker/WdatePicker.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/divcss/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+
+		<script type="text/javascript">
+			
+			function checkForm() {
+				var inputobj = document.getElementsByTagName("input");
+				for( var i = 0;i < inputobj.length;i++ ) {
+					if( inputobj[i].getAttribute("class") == "text" ) {
+						if( checkField(inputobj[i]) ) {
+							continue;
+						} else {
+							return false;
+						}
+					}
+				}
+				
+				return true;
+			}
+			
+			function checkField( obj ) {
+				var fvalue = obj.value.trim();
+				switch( obj.name ) {
+					case "username" : {
+						if( fvalue == "" && fvalue.length == 0 ) {
+							obj.parentNode.getElementsByTagName("span")[0].style.display = "inline";
+							obj.parentNode.getElementsByTagName("span")[0].style.backgroundColor = "#ffe8e0";
+							obj.parentNode.getElementsByTagName("span")[0].innerText = "用户不能为空";
+							return false;
+						} else {
+							var flag = true;
+							$.ajax({
+								type : "post",
+								url : "/divcss/",
+								data : {"username":fvalue,"oper":"member|checkName"},
+								dataType : "json",
+								async : false,
+								success : function( text ) {
+									if( text.code == "error" ) {
+										obj.parentNode.getElementsByTagName("span")[0].style.display = "inline";
+										obj.parentNode.getElementsByTagName("span")[0].style.backgroundColor = "#ffe8e0";
+										obj.parentNode.getElementsByTagName("span")[0].innerText = text.info;
+										
+										flag = false;
+									} else if( text.code == "succ" ) {
+										obj.parentNode.getElementsByTagName("span")[0].style.display = "inline";
+										obj.parentNode.getElementsByTagName("span")[0].style.backgroundColor = "green";
+										obj.parentNode.getElementsByTagName("span")[0].innerText = text.info;
+									}
+								}
+							});
+							
+							return flag;
+						}
+						break;
+					}
+					case "truename" : {
+						if( fvalue == "" && fvalue.length == 0 ) {
+							obj.parentNode.getElementsByTagName("span")[0].style.display = "inline";
+							return false;
+						}
+						break;
+					}
+					case "pwd" : {
+						if( fvalue == "" && fvalue.length == 0 ) {
+							obj.parentNode.getElementsByTagName("span")[0].style.display = "inline";
+							return false;
+						}
+						break;
+					}
+					case "repwd" : {
+						if( fvalue != document.getElementById("pwd").value || fvalue == "") {
+							obj.parentNode.getElementsByTagName("span")[0].style.display = "inline";
+							return false;
+						}
+						break;
+					}
+					case "mobile" : {
+						/*var patt = /^(13|15)[0-9]{9}$/;
+						if( !patt.test(fvalue) ) {
+							obj.parentNode.getElementsByTagName("span")[0].style.display = "inline";
+							return false;
+						}*/
+						break;
+					}
+				}
+				
+				return true;
+			}
+			
+			
+			function clearError( obj ) {
+				obj.parentNode.getElementsByTagName("span")[0].style.display = "none";
+			}
+			
+			$(function(){
+				var inputs =  document.getElementsByTagName("input");
+				var name = "";
+				for( var i = 0;i < inputs.length;i++ ) {
+					name = inputs[i].getAttribute("name");
+					if( name=="username" || name=="truename" || name=="pwd" || name=="repwd" || name=="mobile" ) {
+						inputs[i].addEventListener("blur",function(){
+							checkField( this );
+						},true);
+						inputs[i].addEventListener("focus",function(){
+							clearError( this );
+						},true);
+					}
+				}
+				
+				$(".button").click(function() {
+					//检测表单
+					if( checkForm() ) {
+						//提交表单
+						$.ajax({
+							type:"post",
+							url:"/divcss/",
+							data : {"username":$("input[name='username']").val(),"truename":$("input[name='truename']").val(),"pwd":$("input[name='pwd']").val(),"sex":$("input[name=sex]:checked").val(),"oper":"member|regist","birthdy":"","personcard":"","email":"","mobile":"","address":""},
+							dataType :"json",
+							success : function( json ) {
+								if( json.code == "succ" ) {
+									alert(json.info);
+									window.location = "/divcss/";
+								} else {
+									alert(json.info);
+								}
+							}
+						});
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="head">
+			<div id="logobg" class="warp">
+				<div id="logo">
+					<img src="img/logo.gif"/>
+				</div>
+				<div id="help">
+					<a href="#" class="shop">购物车X件</a>
+					<a href="#">登录</a>
+					<a href="#">注销</a>
+					<a href="#">注册</a>
+					<a href="#">留言</a>
+					<a href="#">后台管理</a>
+				</div>
+				<div id="nav">
+					<ul>
+						<li class="current"><a href="#">首页</a></li>
+						<li><a href="#">图片</a></li>
+						<li><a href="#">百货</a></li>
+						<li><a href="#">品牌</a></li>
+						<li><a href="#">促销</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="childnavbg">
+				<div id="childnav" class="warp">
+					<ul>
+						<li class="first"><a href="#">音乐</a></li>
+						<li><a href="#">影视</a></li>
+						<li><a href="#">少儿</a></li>
+						<li><a href="#">动漫</a></li>
+						<li><a href="#">小说</a></li>
+						<li><a href="#">外语</a></li>
+						<li><a href="#">数码相机</a></li>
+						<li><a href="#">笔记本</a></li>
+						<li><a href="#">羽绒服</a></li>
+						<li class="last"><a href="#">秋冬靴</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id = "registPanl" class="warp">
+			<div id="shasow">
+				<div class="left-box"></div>
+				<div id="box">
+					<h1>欢迎注册易买网</h1>
+					<div class="left1"></div>
+					<div class="left2"></div>
+					<div class="left3"></div>
+					<div class="left4"></div>
+					<div id="" style="clear: both;"></div>
+					<table cellspacing="0px">
+						<tr>
+							<th>用户名(*)：</th>
+							<td>
+								<input type="" name="username" class="text"/>
+								<span class="error" style="display: none;">用户名不能为空!</span>
+							</td>
+						</tr>
+						<tr>
+							<th>真实姓名(*)：</th>
+							<td>
+								<input type="" name="truename" class="text"/>
+								<span class="error" style="display: none;">真实名称不能空!</span>
+							</td>
+						</tr>
+						<tr>
+							<th>登录密码(*)：</th>
+							<td>
+								<input type="" name="pwd" id="pwd" value="" class="text"/>
+								<span class="error" style="display: none;">密码不能为空!</span>
+							</td>
+						</tr>
+						<tr>
+							<th>确认密码(*)：</th>
+							<td>
+								<input type="" name="repwd" id="" value="" class="text"/>
+								<span class="error" style="display: none;">两次密码输入不正确!</span>
+							</td>
+						</tr>
+						<tr>
+							<th>性别(*)：</th>
+							<td>
+								<input type="radio" name="sex" id="sex" value="男" checked="checked">男
+								<input type="radio" name="sex" id="sex" value="女">女
+							</td>
+						</tr>
+						<tr>
+							<th>出生日期：</th>
+							<td>
+								<input type="" name="birthdy" id="" value="" class="Wdate text" readonly="readonly" onclick="WdatePicker({dateFmt:'yyyy-MM-dd',skin:'whyGreen' })"/>
+							</td>
+						</tr>
+						<tr>
+							<th>身份证：</th>
+							<td>
+								<input type="" name="personcard" id="" value="" class="text"/>
+							</td>
+						</tr>
+						<tr>
+							<th>电子邮件：</th>
+							<td>
+								<input type="" name="email" id="" value="" class="text"/>
+							</td>
+						</tr>
+						<tr>
+							<th>手机(*)：</th>
+							<td>
+								<input type="" name="mobile" id="" value="" class="text" />
+								<span class="error" style="display: none;">手机号码不正确!</span>
+							</td>
+						</tr>
+						<tr>
+							<th>收货地址(*)：</th>
+							<td>
+								<input type="" name="address" id="" value="" class="text"/>
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<input type="button" id="" value="提交注册" class="button"/>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="bottom-box"></div>
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+		<div id="footer">
+			Copyright © 2016 rudder All Rights Reserved. 京ICP证1000001号
+		</div>
+	</body>
+</html>

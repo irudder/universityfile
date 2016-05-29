@@ -1,0 +1,161 @@
+<script type="text/javascript">
+	function search(){
+		$.ajax({
+			type:"post",
+			url:"/divcss/admin/index.php?oper=admin|usermanage",
+			data:{"cname":$('#cname').val(),"email":$('#email').val(),"phone":$('#phone').val(),"starttime":$('#starttime').val(),"endtime":$('#endtime').val()},
+			success : function( text ) {
+				$(".main").hide();
+				$(".main").html(text);
+				$(".main").fadeIn();
+			},
+		});
+	}
+	$(function(){
+		$('#find').on('click',function(){
+			search();
+		});
+		//用户删除
+		$('.manageDel').on('click',function(){
+			//alert($(this).attr('uid'));
+			$.ajax({
+				type:"post",
+				url:"/divcss/admin/index.php?oper=admin|deluser",
+				dataType: "json",
+				data:{
+					"uid": $(this).attr('uid'),
+				},
+				success: function(text){
+					if( text.code==1 ){
+						search();
+						//alert("删除成功！");
+					}else if( text.code==0 ){
+						alert(text.message)
+					}
+				}
+			});
+		});
+		//全选删除
+		
+		$('#checkedbox').on('click',function(){
+			if(this.checked){ 
+				var a = document.getElementById('cbox').getElementsByTagName('input');
+				for( var i=0;i<a.length;i++){
+					a[i].checked=true;
+				}
+			}else{ 
+				$("#cbox input[type='checkbox']").attr('checked', false);
+			} 
+
+		});
+		$('.delall').on('click',function(){
+			var cids = '';
+			$('#cbox input[type=checkbox]').each(function(){
+				if(this.checked){
+					//alert($(this).attr('uid'));
+					cids+= $(this).attr('uid')+',' ;
+				}
+			});
+			cids=cids.substr(0,cids.length-1);
+			//alert(cids);
+			$.ajax({
+				type:"post",
+				url:"/divcss/admin/index.php?oper=admin|deluser",
+				dataType: "json",
+				data:{
+					"uid": cids,
+				},
+				success: function(text){
+					if( text.code==1 ){
+						search();
+						//alert("删除成功！");
+					}else if( text.code==0 ){
+						alert(text.message)
+					}
+				}
+			});
+		});
+		
+		//用户修改
+		$('.userModify').on('click',function(){
+			//alert($(this).attr('uid'));
+			$.ajax({
+				type:"post",
+				url:"/divcss/admin/index.php?oper=admin|userModify",
+				data:{
+					uid: $(this).attr('uid'),
+				},
+				success : function( text ) {
+					$(".main").hide();
+					$(".main").html(text);
+					$(".main").fadeIn();
+				},
+			});
+		});
+
+	})
+</script>
+<style type="text/css">
+	.filedsetclass{
+		margin-bottom: 10px;
+		border: 1px solid #FBAA62;
+	}
+	.filedsetclass legend{
+		font-size: 18px;
+		font-weight: 800px;
+	}
+	#find{
+		background:green;
+		width:80px;
+		height:30px;
+		margin-left:40px;
+	}
+</style>
+	<h2>用户管理</h2>
+	<div class="manage">
+		<fieldset class="filedsetclass">
+			<legend>查询条件</legend>
+			<label>用 户 名 ：</label>
+			
+			<input type="text" name="cname" id="cname" value="<{if isset($smarty.post.cname)}><{$smarty.post.cname}><{/if}>" />
+			<label>邮箱：</label>
+			<input type="text" name="email" id="email" value="<{if isset($smarty.post.email)}><{$smarty.post.email}><{/if}>" />
+			<label>手机：</label>
+			<input type="text" name="phone" id="phone" value="<{if isset($smarty.post.phone)}><{$smarty.post.phone}><{/if}>" />
+			<br />
+			<label>注册日期：</label>
+			<input type="text" name="starttime" id="starttime" value="<{if isset($smarty.post.starttime)}><{$smarty.post.starttime}><{/if}>" readonly onclick="WdatePicker({dateFmt:'yyyy-MM-dd',skin:'whyGreen' });"/> 一至一 
+			<input type="text" name="endtime" id="endtime" value="<{if isset($smarty.post.endtime)}><{$smarty.post.endtime}><{/if}>" readonly onclick="WdatePicker({dateFmt:'yyyy-MM-dd',skin:'whyGreen' });"/>
+			<input type="button" name="" id="find" value="查询" />
+		</fieldset>
+
+		<table class="list">
+			<tr>
+				<th><input type="checkbox" id="checkedbox"/></th>
+				<th>用户名</th>
+				<th>真实姓名</th>
+				<th>性别</th>
+				<th>Email</th>
+				<th>手机</th>
+				<th>注册日期</th>
+				<th>操作</th>
+			</tr>
+			<tbody id="cbox">
+				<{foreach $info as $val }>
+					<tr>
+						<th><input type="checkbox" uid='<{$val.id}>'/></th>
+						<td class="first w4 c"><{$val.cname}></td>
+						<td class="w1 c"><{$val.turename}></td>
+						<td class="w2 c"><{$val.sex}></td>
+						<td><{$val.email}></td>
+						<td class="w4 c"><{$val.mobile}></td>
+						<td class="w4 c"><{$val.reday}></td>
+						<td class="w1 c"><a class="userModify" href="javascript:void(0)" uid='<{$val.id}>'>修改</a> <a class="manageDel" uid='<{$val.id}>' href="javascript:void(0)">删除</a></td>
+					</tr>
+				<{/foreach}>
+			</tbody>
+		</table>
+		<button class="delall" >批量删除</button>
+		<{include file = "fenye.html" }>
+	</div>
+

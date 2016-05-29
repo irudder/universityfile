@@ -1,0 +1,25 @@
+create database epay;
+
+create table customer(id int auto_increment primary key ,cname varchar(20),turename varchar(20),pwd varchar(16),sex char(4),birthday varchar(20),idcard char(18),email varchar(16),mobile int, address varchar(100),reday varchar(20));
+insert into customer(cname, turename, pwd,reday) values('hello','hh','123',now());
+
+create table custom(id int auto_increment primary key ,username varchar(20),turename varchar(20),pwd varchar(16),sex char(4),birthday varchar(20),personcard char(18),email varchar(16),mobile int, address varchar(100),reday varchar(20));
+insert into custom(username, turename, pwd,reday) values('rudder','hh1','123',now());
+insert into custom(username, turename, pwd,reday) values('rudder1','hh2','123',now());
+insert into custom(username, turename, pwd,reday) values('rudder2','hh3','123',now());
+insert into custom(username, turename, pwd,reday) values('rudder3','hh3','123',now());
+insert into custom(username, turename, pwd,reday) values('rudder4','hh4','123',now());
+insert into custom(username, turename, pwd,reday) values('rudder5','hh1','123',now());
+insert into custom(username, turename, pwd,reday) values('rudder6','hh3','123',now());
+insert into custom(username, turename, pwd,reday) values('rudder7','hh5','123',now());
+insert into custom(username, turename, pwd,reday) values('rudder8','hh6','123',now());
+insert into custom(username, turename, pwd,reday) values('rudder9','hh7','123',now());
+insert into custom(username, turename, pwd,reday) values('rudder11','hh8','123',now());
+insert into custom(username, turename, pwd,reday) values('rudder12','hh1','123',now());
+
+insert into customer(cname, turename, pwd,email,mobile,reday) values('rudder12','���','123','123@qq.com','135xxx','1991-10-17');
+
+insert into customer(cname, turename, pwd,email,mobile,reday) values('ru','�����','345','123@qq.com','136xxx','1997-10-17');
+
+
+insert into customer(cname, turename, pwd,email,mobile,reday) values('hh','ddh','178','894@qq.com','23xxx','1994-10-17');

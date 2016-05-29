@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>易卖网首页</title>
+		<script src="/divcss/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="/divcss/css/common.css"/>
+		
+		<script type="text/javascript">
+			$(function(){
+				$(".banner").animate({"height":"150px"},2000).delay(2000).animate({"height":"0px"},2000);
+				
+				$("#productBox dt").on("click",function(){
+					$(this).nextUntil("dt").slideToggle();
+				});
+				
+				var index = 0;
+				window.setInterval(function(){
+					index++;
+					if( index >= 4 ) {
+						index = 0;
+					}
+					
+					var lis = $(".slideBox ul li");
+					lis.hide().eq(index).fadeIn();
+				},3000);
+			});
+		</script>
+	</head>
+	<body>
+		<div class="banner" style="height: 0px;overflow: hidden;">
+			<img src="/divcss/img/banner.jpg" width="100%" height="150px" />
+		</div>
+		<div id="head">
+			<div id="logobg" class="warp">
+				<div id="logo">
+					<img src="/divcss/img/logo.gif"/>
+				</div>
+				<div id="help">
+					<a href="#" class="shop">购物车X件</a>
+					<a href="/divcss/index.php?oper=member|goLogin">登录</a>
+					<a href="#">注销</a>
+					<a href="/divcss/index.php?oper=member|goRegist">注册</a>
+					<a href="#">留言</a>
+					<a href="#">后台管理</a>
+				</div>
+				<div id="nav">
+					<ul>
+						<li class="current"><a href="#">首页</a></li>
+						<li><a href="#">图片</a></li>
+						<li><a href="#">百货</a></li>
+						<li><a href="#">品牌</a></li>
+						<li><a href="#">促销</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="childnavbg">
+				<div id="childnav" class="warp">
+					<ul>
+						<li class="first"><a href="#">音乐</a></li>
+						<li><a href="#">影视</a></li>
+						<li><a href="#">少儿</a></li>
+						<li><a href="#">动漫</a></li>
+						<li><a href="#">小说</a></li>
+						<li><a href="#">外语</a></li>
+						<li><a href="#">数码相机</a></li>
+						<li><a href="#">笔记本</a></li>
+						<li><a href="#">羽绒服</a></li>
+						<li class="last"><a href="#">秋冬靴</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="main">
+			<div id="left">
+				<div id="productBox">
+					<h2>商品分类</h2>
+					<dl>
+						<dt>图书音象</dt>
+						<dd>图书</dd>
+						<dd>音乐</dd>
+						<dt>百货</dt>
+						<dd>运动健康</dd>
+						<dd>服装</dd>
+						<dd>家居</dd>
+						<dd>美妆</dd>
+						<dd>母婴</dd>
+						<dd>食品</dd>
+						<dd>手机数码</dd>
+						<dd>家具首饰</dd>
+						<dd>手表饰品</dd>
+					</dl>
+				</div>
+			</div>
+			<div id="center">
+				<div class="slideBox">
+					<ul>
+						<li style="display:inline-block;"><img src="/divcss/img/banner_1.jpg"/></li>
+						<li><img src="/divcss/img/banner_2.jpg"/></li>
+						<li><img src="/divcss/img/banner_3.jpg"/></li>
+						<li><img src="/divcss/img/banner_4.jpg"/></li>
+					</ul>
+				</div>
+				<h2>商品列表</h2>
+				<div class="product">
+					<table>
+						<tr><td><img src="/divcss/img/6.jpg"/></td></tr>
+						<tr><td><a href="#">法国德菲丝松露精品巧克力500g/盒</a></td></tr>
+						<tr><td><span>￥108.0</span></td></tr>
+					</table>
+				</div>
+				<div class="product">
+					<table>
+						<tr><td><img src="/divcss/img/6.jpg"/></td></tr>
+						<tr><td><a href="#">法国德菲丝松露精品巧克力500g/盒</a></td></tr>
+						<tr><td><span>￥108.0</span></td></tr>
+					</table>
+				</div>
+				<div class="product">
+					<table>
+						<tr><td><img src="/divcss/img/6.jpg"/></td></tr>
+						<tr><td><a href="#">法国德菲丝松露精品巧克力500g/盒</a></td></tr>
+						<tr><td><span>￥108.0</span></td></tr>
+					</table>
+				</div>
+				<div class="product">
+					<table>
+						<tr><td><img src="/divcss/img/6.jpg"/></td></tr>
+						<tr><td><a href="#">法国德菲丝松露精品巧克力500g/盒</a></td></tr>
+						<tr><td><span>￥108.0</span></td></tr>
+					</table>
+				</div>
+				<div class="product">
+					<table>
+						<tr><td><img src="/divcss/img/6.jpg"/></td></tr>
+						<tr><td><a href="#">法国德菲丝松露精品巧克力500g/盒</a></td></tr>
+						<tr><td><span>￥108.0</span></td></tr>
+					</table>
+				</div>
+				<div class="product">
+					<table>
+						<tr><td><img src="/divcss/img/6.jpg"/></td></tr>
+						<tr><td><a href="#">法国德菲丝松露精品巧克力500g/盒</a></td></tr>
+						<tr><td><span>￥108.0</span></td></tr>
+					</table>
+				</div>
+			</div>
+			<div id="right">
+				right
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+		<div id="footer">
+			Copyright © 2016 rudder All Rights Reserved. 京ICP证1000001号
+		</div>
+	</body>
+</html>

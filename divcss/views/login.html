@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>易卖网登录页面</title>
+		<link rel="stylesheet" type="text/css" href="/divcss/css/common.css"/>
+		<script src="/divcss/js/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("input[type=button]").click(function(){
+					//取值
+					var username = $("input[name=username]").val();
+					var pwd = $("input[name=pwd]").val();
+					
+					//验证
+					if( username == "" || username.length == 0 ) {
+						$("input[name=username]").parent().next().text("用户名不能为空!");
+						return;
+					}
+					if( pwd == "" || pwd.length == 0 ) {
+						$("input[name=pwd]").parent().next().text("密码不能为空!");
+						return;
+					}
+					
+					//提交
+					$.ajax({
+						type : "post",
+						url  : "/divcss/",
+						data : {"username":username,"pwd":pwd,"oper":"member|login"},
+						success : function( text ) {
+							if( text == "true" ) {
+								window.location = "/divcss/index.php?oper=member|goIndex";
+							} else {
+								$(".errorinfo").css('display',"none");
+								$(".errorinfo").html("用户名或密码错误");
+								$(".errorinfo").fadeIn().delay(3000).fadeOut();
+							}
+						},
+						async:true
+					});
+				});
+				
+				$("input[name=username],input[name=pwd]").on("focus",function(){
+					$(this).parent().next().text("");
+				});
+			});
+		</script>
+		
+	</head>
+	<body>
+		<div id="head">
+			<div id="logobg" class="warp">
+				<div id="logo">
+					<img src="img/logo.gif"/>
+				</div>
+				<div id="help">
+					<a href="#" class="shop">购物车X件</a>
+					<a href="#">登录</a>
+					<a href="#">注销</a>
+					<a href="#">注册</a>
+					<a href="#">留言</a>
+					<a href="#">后台管理</a>
+				</div>
+				<div id="nav">
+					<ul>
+						<li class="current"><a href="#">首页</a></li>
+						<li><a href="#">图片</a></li>
+						<li><a href="#">百货</a></li>
+						<li><a href="#">品牌</a></li>
+						<li><a href="#">促销</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="childnavbg">
+				<div id="childnav" class="warp">
+					<ul>
+						<li class="first"><a href="#">音乐</a></li>
+						<li><a href="#">影视</a></li>
+						<li><a href="#">少儿</a></li>
+						<li><a href="#">动漫</a></li>
+						<li><a href="#">小说</a></li>
+						<li><a href="#">外语</a></li>
+						<li><a href="#">数码相机</a></li>
+						<li><a href="#">笔记本</a></li>
+						<li><a href="#">羽绒服</a></li>
+						<li class="last"><a href="#">秋冬靴</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="loginPanel" class="warp">
+			<div class="loginbox" >
+				<h1>欢迎回到易卖网</h1>
+				<div class="errorinfo"></div>
+				<table>
+					<tr>
+						<td>用户名：</td>
+						<td>
+							<input type="text" name="username" id="username" value="" />
+						</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>登录密码：</td>
+						<td>
+							<input type="password" name="pwd" id="pwd" value="" />
+						</td>
+						<td></td>
+					</tr>
+					<!--<tr>
+						<td>验证码：</td>
+						<td>
+							<input type="text" name="" id="" value="" />
+							<img src="#" /><a href="#">看不清，换一张</a>
+						</td>
+						<td></td>
+					</tr>-->
+					<tr>
+						<td></td>
+						<td>
+							<input type="radio" name="rem" id="rem" value="记住密码？" title="记住密码?"/>
+							<input type="button" name="" id="" value="立即登录"/>
+						</td>
+						<td></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="footer">
+			Copyright © 2016 rudder All Rights Reserved. 京ICP证1000001号
+		</div>
+	</body>
+</html>

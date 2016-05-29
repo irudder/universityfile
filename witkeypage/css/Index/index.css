@@ -1,0 +1,93 @@
+body{
+    background-image: url(../../img/body.jpg);
+    padding-top: 80px;
+}
+.glyphicon-user{
+    font-size: 18px;
+}
+#main{
+    width: 960px;
+    margin: 0 auto;
+}
+#search{
+    position: absolute;
+    right: 300px;
+}
+#searchBtn{
+    background-color: #17b384;
+    color: #fff;
+    font-weight: bold;
+}
+#publishTask{
+    background-color: #38a9e5;
+    color: #fff;
+    font-weight: bold;
+}
+#tip{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#tip li{
+    position: relative;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    float: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+#tip li label{
+    padding: 0 20px;
+    background-color: #0099cb;
+    min-width: 140px;
+}
+#tip li label.stepActive{
+    background-color: #690;
+}
+.right-arrow{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 20px solid red;
+    border-color: transparent transparent transparent #0099cb;
+}
+.left-arrow{
+    position: absolute;
+    left: -40px;
+    width: 0;
+    height: 0;
+    border: 20px solid #0099cb;
+    border-color: #0099cb #0099cb #0099cb transparent;
+}
+.col-xs-2{
+    width: 20%;
+}
+#tip li span.leftActive{
+    border-color: #690 #690 #690 transparent;
+}
+#tip li span.rightActive{
+    border-color: transparent transparent transparent #690;
+}
+.list-inline{
+    margin-left: 0;
+}
+.list-inline .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+#publish{
+    background-color: #0099cb;
+    border: 0;
+}
+#notice{
+    margin: 30px 0 30px 0;
+    padding: 0 30px 0 30px;
+    border-left: 1px solid #ccc;
+}
+#notice li{
+    margin-top: 15px;
+}
+

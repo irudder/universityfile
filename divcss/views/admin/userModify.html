@@ -1,0 +1,106 @@
+<style type="text/css">
+	
+</style>
+<script type="text/javascript">
+	//提交修改
+	$("#modifybtn").on('click',function(){
+		$.ajax({
+				type:"post",
+				url:"/divcss/admin/index.php?oper=admin|userModify",
+				data:{
+					uid: $('#uid').val(),
+					username:$('#username').val(),
+					truename:$('#truename').val(),
+					sex:$('#sex').val,
+					birthdy:$('#birthdy').val(),
+					personcard:$('#personcard').val(),
+					email:$('#email').val(),
+					mobile:$('#mobile').val(),
+					address:$('#address').val(),
+					modify:"#modify",
+				},
+				success : function( text ) {
+					//alert(text);
+					if(text==false){
+						alert("修改失败");
+					}else{
+						$(".main").hide();
+						$(".main").html(text);
+						$(".main").fadeIn();
+					}
+					
+				},
+			});
+	})
+</script>
+
+<h2>用户管理</h2>
+<div class="manage">
+	这是用户修改页面
+	<!--<form action="/divcss/admin/index.php?oper=admin|userModify" method="post">-->	
+		<input type="hidden" name="modify" class="text" value="modify"/>
+		<input type="hidden" name="uid" id="uid" class="text" value="<{$udata.id}>"/>
+		<table cellspacing="0px">
+			<tr>
+				<th>用户名(*)：</th>
+				<td>
+					<input type="" name="username" id="username" class="text" value="<{$udata.cname}>"/>
+					<span class="error" style="display: none;">用户名不能为空!</span>
+				</td>
+			</tr>
+			<tr>
+				<th>真实姓名(*)：</th>
+				<td>
+					<input type="" name="truename" class="text" id="truename" value="<{$udata.turename}>"/>
+					<span class="error" style="display: none;">真实名称不能空!</span>
+				</td>
+			</tr>
+			<tr>
+				<th>性别(*)：</th>
+				<td>
+					<input type="" name="sex" class="text" id="sex" value="<{$udata.sex}>"/>
+					<span class="error" style="display: none;">性别不能为空!</span>
+				</td>
+			</tr>
+			<tr>
+				<th>出生日期：</th>
+				<td>
+					<input type="" name="birthdy" id="birthdy"  class="Wdate text" readonly="readonly" value="<{$udata.birthday}>"  onclick="WdatePicker({dateFmt:'yyyy-MM-dd',skin:'whyGreen' })"/>
+				</td>
+			</tr>
+			<tr>
+				<th>身份证：</th>
+				<td>
+					<input type="" name="personcard" id="personcard" class="text" value="<{$udata.idcard}>"/>
+				</td>
+			</tr>
+			<tr>
+				<th>电子邮件：</th>
+				<td>
+					<input type="" name="email" id="email"  class="text" value="<{$udata.email}>"/>
+				</td>
+			</tr>
+			<tr>
+				<th>手机(*)：</th>
+				<td>
+					<input type="" name="mobile" id="mobile"  class="text" value="<{$udata.mobile}>"/>
+					<span class="error" style="display: none;">手机号码不正确!</span>
+				</td>
+			</tr>
+			<tr>
+				<th>收货地址(*)：</th>
+				<td>
+					<input type="" name="address" id="address"class="text" value="<{$udata.address}>"/>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" id="modifybtn" value="提交修改" class="button"/>
+				</td>
+			</tr>
+		</table>
+	<!--</form>-->
+	
+</div>
+

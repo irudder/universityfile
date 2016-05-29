@@ -1,0 +1,34 @@
+<script type="text/javascript">
+	$(function(){
+		$(".lefter a").click(function(){
+			$.ajax({
+				type:"post",
+				url: $(this).attr("url"),
+				success : function( text ) {
+					$(".main").hide();
+					$(".main").html(text);
+					$(".main").fadeIn();
+				},
+				async:true
+			});
+		});
+	});
+</script>
+
+<div id="menu-mng" class="lefter">
+	<div class="box">
+		<dl>
+			<dt>用户管理</dt>
+			<dd><a href="javascript:void(0);" url = "/divcss/admin/index.php?oper=admin|usermanage">用户管理</a></dd>
+		  <dt>商品信息</dt>
+			<dd><em><a href="productClass-add.html">新增</a></em><a href="productClass.html">分类管理</a></dd>
+			<dd><em><a href="product-add.html">新增</a></em><a href="product.html">商品管理</a></dd>
+			<dt>订单管理</dt>
+			<dd><a href="order.html">订单管理</a></dd>
+			<dt>留言管理</dt>
+			<dd><a href="guestbook.html">留言管理</a></dd>
+			<dt>新闻管理</dt>
+			<dd><em><a href="news-add.html">新增</a></em><a href="news.html">新闻管理</a></dd>
+		</dl>
+	</div>
+</div>

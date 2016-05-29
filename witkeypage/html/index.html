@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/Index/index.css" />
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#">哪上班</a>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="#">首页</a>
+                </li>
+                <li>
+                    <a href="#">私信</a>
+                </li>
+            </ul>
+            <div class="text-right">
+                <form id="search" class="navbar-form navbar-left " role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="搜索公司">
+                    </div>
+                    <button id="searchBtn" type="submit" class="btn btn-default">搜索</button>
+                </form>
+                <button id="publishTask" type="button" class="btn btn-default navbar-btn">发布需求</button>
+                <img id="user" src="../img/user.png" alt=""/>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="main">
+            <div id="tip">
+                <ul class="list-inline">
+                    <div class="row">
+                        <li class="text-center active col-xs-2">
+                            <label class="stepActive">1.需求发布</label>
+                            <span class="right-arrow rightActive"></span>
+                        </li>
+                        <li class="text-center col-xs-2">
+                            <span class="left-arrow "></span>
+                            <label>2.等待应答</label>
+                            <span class="right-arrow"></span>
+                        </li>
+                        <li class="text-center col-xs-2">
+                            <span class="left-arrow"></span>
+                            <label>3.赏金托管</label>
+                            <span class="right-arrow"></span>
+                        </li>
+                        <li class="text-center col-xs-2">
+                            <span class="left-arrow"></span>
+                            <label>4.服务</label>
+                            <span class="right-arrow"></span>
+                        </li>
+                        <li class="text-center col-xs-2">
+                            <span class="left-arrow"></span>
+                            <label>5.评价并结束</label>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">需求信息</h3>
+                </div>
+                <div class="panel-body">
+                    <div id="reg">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div id="form">
+                                    <form action="" method="post" role="form">
+                                        <div class="form-group">
+                                            <label for=""></label>
+                                            <input type="text" class="form-control" name="" placeholder="公司名称">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for=""></label>
+                                            <input type="text" class="form-control" name="" placeholder="设置赏金">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for=""></label>
+                                            <input type="text" class="form-control" name="" placeholder="捎上一句话">
+                                        </div>
+                                        <button id="publish" type="submit" class="btn btn-primary btn-block text-center">发布</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div id="notice">
+                                    <ol>
+                                        <li>请附上您的诚意金，金额范围一般是您期望薪资的5%。－15%。，单位是人民币</li>
+                                        <li>当您的需求有人应答之后，需要您将诚意金托管到本平台，待服务结束后，再将金额如数转到对方账户</li>
+                                        <li>金额多少不代表信息价值</li>
+                                    </ol>
+                                </div>
+                                <div id="triangle-up"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
