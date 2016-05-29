@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="apple-touch-icon" href="icon.png" />
+<link rel="shortcut icon" href="icon.png" />
+<link rel="icon" href="icon.png" />
+<title>捕鱼乐</title>
+<meta name="keywords" content="捕鱼乐,捕鱼乐html5游戏" />
+<meta name="description" content="捕鱼乐html5游戏,捕鱼乐手机在线游戏" />
+<meta name="viewport" id="viewport" content="width = device-width, initial-scale = 1, minimum-scale = 1, maximum-scale = 1,user-scalable=0">
+<script type="text/javascript">document.write('<script type="text/javascript" src="resource/js/resource_loader.js?ver='+Math.random()+'"><\/script>')</script>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="full-screen" content="yes"/>
+<meta name="screen-orientation" content="portrait"/>
+<meta name="x5-fullscreen" content="true"/>
+<meta name="360-fullscreen" content="true"/>
+<style>
+body, canvas, div {
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+-khtml-user-select: none;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+</style>
+</head>
+<body style="padding:0; margin: 0; background: #000;">
+<canvas id="gameCanvas" width="400" height="630"></canvas>
+<script src="js/game.min.js?ver"></script>
+<script language=javascript>
+$j(document).ready(function(){
+$j('.aliForPc').click(function(){
+$j(this).hide();
+});
+if(/Android|Windows Phone|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){
+//
+}else{
+//	$j(".aliForPc").show();
+}
+}); 
+function getRandom(arr){
+var len = arr.length;
+return arr[Math.floor(Math.random()*len)]
+}
+function getRand(){	 
+return Math.floor( Math.random()*10000 );
+}
+var mebtnopenurl = 'http://demo.irudder.me/wxgame';
+window.shareData = {
+"imgUrl": "http://demo.irudder.me/wxgame/games/hdlx/hdlx.jpg",
+"timeLineLink": "http://demo.irudder.me/wxgame/games/hdlx",
+"tTitle": "欢迎来到海底大捕鱼时代！",
+"tContent": "捕鱼大亨改编的大鱼吃小鱼经典游戏，不容错过！"
+};
+function dp_share(a,b){
+document.title = window.shareData.tContent =  descContent = "在《捕鱼乐》游戏中我得到了"+a+"分，号称【"+b+"】，你也来试试吧！";
+}
+function showshare(){
+document.getElementById("share").style.display = "";
+};
+function clickMore(){
+window.location  = "http://demo.irudder.me/wxgame";
+};
+var imgUrl = window.shareData.imgUrl;
+var lineLink = window.shareData.timeLineLink;
+var descContent =  window.shareData.tContent;
+var shareTitle = window.shareData.tTitle;
+function shareFriend() {
+WeixinJSBridge.invoke('sendAppMessage',{
+"img_url": imgUrl,
+"img_width": "200",
+"img_height": "200",
+"link": lineLink,
+"desc": descContent,
+"title": shareTitle
+}, function(res) {
+//_report('send_msg', res.err_msg);
+})
+}
+function shareTimeline() {
+WeixinJSBridge.invoke('shareTimeline',{
+"img_url": imgUrl,
+"img_width": "200",
+"img_height": "200",
+"link": lineLink,
+"desc": shareTitle,
+"title": descContent
+}, function(res) {
+//_report('timeline', res.err_msg);
+});
+}
+function shareWeibo() {
+WeixinJSBridge.invoke('shareWeibo',{
+"content": descContent,
+"url": lineLink,
+}, function(res) {
+//_report('weibo', res.err_msg);
+});
+}
+// 当微信内置浏览器完成内部初始化后会触发WeixinJSBridgeReady事件。
+document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+// 发送给好友
+WeixinJSBridge.on('menu:share:appmessage', function(argv){
+shareFriend();
+});
+// 分享到朋友圈
+WeixinJSBridge.on('menu:share:timeline', function(argv){
+shareTimeline();
+});
+// 分享到微博
+WeixinJSBridge.on('menu:share:weibo', function(argv){
+shareWeibo();
+});
+}, false);		
+</script>
+<div id=share style="display: none">
+<img width=100% src="share.png" style="position: fixed; z-index: 9999; top: 0; left: 0; display: " ontouchstart="document.getElementById('share').style.display='none';" onclick="document.getElementById('share').style.display='none';" />
+</div>
+</body>
+</html>

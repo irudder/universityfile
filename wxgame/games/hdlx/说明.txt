@@ -1,0 +1,1 @@
+此游戏需要添加 MIME类型 .fnt text/html

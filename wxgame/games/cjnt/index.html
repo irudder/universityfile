@@ -1,0 +1,141 @@
+<html style="min-height: 393px;"></script><script id="tinyhippos-injected">if (window.top.ripple) { window.top.ripple("bootstrap").inject(window, document); }</script><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<title>超级跳</title>
+<link rel="stylesheet" href="css/stylesheet.css" type="text/css" charset="utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1, IE=9">
+<meta name="format-detection" content="telephone=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="robots" content="noindex,nofollow">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Jumping Thief">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<link rel="stylesheet" type="text/css" href="css/app.css">
+	<script src="src/phaser.min.js"></script>
+	<script src="src/Boot.js"></script>
+	<script src="src/Preloader.js"></script>
+	<script src="src/Game.js"></script>
+	<script src="src/Texts.js"></script>
+	<script src="src/SoundManager.js"></script>
+	<script src="src/GUI.js"></script>
+	<script src="src/Column.js"></script>
+	<script src="src/Character.js"></script>
+</head>
+<body>
+
+
+<div id="game" style="opacity: 0.99;"></div>
+<div id="orientation"></div> 
+<script type="text/javascript">
+    var lang;
+    var game;
+    var iPhone5;
+    var iPhone4;
+    startGame = (function () {
+        lang = 'en';
+
+
+        var iPhone = navigator.userAgent.toLowerCase().indexOf('iphone') != -1;
+        var pixelRatio = window['devicePixelRatio'] || 1;
+        iPhone5 = iPhone && pixelRatio==2 && window.screen.height == 568;
+        iPhone4 = !iPhone5 && iPhone;
+
+
+        var width = 320;
+        var height = 480;
+        var product = window.innerWidth * window.innerHeight;
+
+        if( iPhone5 )
+            height = 530;
+
+        if( product > 400000 || pixelRatio==2){
+            width *= 2;
+            height *= 2;
+        }
+
+        game = new Phaser.Game(width, height, Phaser.CANVAS, 'game');
+
+        game.state.add('Boot', TheTower.Boot);
+        game.state.add('Game', TheTower.Game);
+        game.state.add('Preloader', TheTower.Preloader);
+
+        game.state.start('Boot');
+
+
+    });
+	startGame();
+</script>
+ <script language="javascript">
+		window.shareData={
+								 title:"超级跳",
+								 content:"超级跳真的好虐，快跟你的好友比比看谁更吊吧！",
+								 imgurl:"http://demo.irudder.me/wxgame/games/cjnt/cjnt.jpg",
+								 link:"http://demo.irudder.me/wxgame/games/cjnt"
+						 };
+		document.addEventListener("WeixinJSBridgeReady", function onBridgeReady() {
+			WeixinJSBridge.on("menu:share:appmessage", function(argv) {
+				WeixinJSBridge.invoke("sendAppMessage", {
+					"img_url": window.shareData.imgurl,
+					"link": window.shareData.link,
+					"desc": window.shareData.content,
+					"title": window.shareData.title
+				}, function(res){
+					document.location.href="http://demo.irudder.me/wxgame/";
+				});
+			});
+			WeixinJSBridge.on("menu:share:timeline", function(argv) {
+				WeixinJSBridge.invoke("shareTimeline", {
+					"img_url": _this.yoocc.shareData.imgurl,
+					"img_width": "640",
+					"img_height": "640",
+					"link": window.shareData.link,
+					"desc": window.shareData.content,
+					"title": window.shareData.title
+				}, function(res){
+					document.location.href="http://demo.irudder.me/wxgame/";
+				});
+			});
+		}, false);
+       	var myData = { gameid: "cjnt" };
+		function dp_submitScore(score){
+				myData.score =parseInt(score);
+				myData.scoreName = "跳过"+score+"关";
+				document.title ="谁能超越我？我在超级跳中跳过了"+score+"关，太虐了！";	
+				window.shareData.title = document.title;
+				window.shareData.content = "求超越，别把你碰的头破血流";
+		}
+
+		function goHome(){
+			window.location="http://demo.irudder.me/wxgame/";
+		}
+		function clickMore(){
+			 
+			goHome();
+			  
+		}
+		function dp_share(){
+			document.getElementById("share").style.display="";
+		}
+		function dp_Ranking(){
+			window.location=game9g.homeurl;
+		}
+
+		function showAd(){
+		}
+		function hideAd(){
+		}
+
+	</script>
+	<div id=share style="display: none">
+                        <img width=100% src="share.png"
+                                style="position: fixed; z-index: 9999; top: 0; left: 0; display: "
+                                ontouchstart="document.getElementById('share').style.display='none';" onclick="document.getElementById('share').style.display='none';" />
+                </div>
+<div style="text-align: center; display: block; font-size: 0px; width: 100%; height: 60px; opacity: 0.9; position: fixed; bottom: 0px; background-color: rgb(0, 0, 0); z-index: 2147483646;" id="cproIframe1Wrap" baiduxuanting="baiduCproXuantingRoof"><div style="width:100%;height:60px;position:relative;margin:0 auto;"><iframe width="100%" height="60px" frameborder="0" align="center,center" style="margin-left:px" allowtransparency="true" scrolling="no" marginheight="0" marginwidth="0" _src="../../ad.html"" id="cproIframe1" src="../../ad.html"></iframe></div></div>
+</body></html>
